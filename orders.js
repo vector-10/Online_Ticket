@@ -10,32 +10,32 @@ const Orders = [
     paymentStatus: "Paid",
   },
   {
-    ticketName: "Premium Ticket",
+    ticketName: "Regular Ticket",
     ticketNumber: "IVT-1001",
     paymentStatus: "Paid",
   },
   {
-    ticketName: "Premium Ticket",
+    ticketName: "Regular Ticket",
     ticketNumber: "IVT-1001",
     paymentStatus: "Paid",
   },
   {
-    ticketName: "Premium Ticket",
+    ticketName: "Regular Ticket",
     ticketNumber: "IVT-1001",
     paymentStatus: "Paid",
   },
   {
-    ticketName: "Premium Ticket",
+    ticketName: "Regular Ticket",
     ticketNumber: "IVT-1001",
     paymentStatus: "Paid",
   },
   {
-    ticketName: "Premium Ticket",
+    ticketName: "Regular Ticket",
     ticketNumber: "IVT-1001",
     paymentStatus: "Paid",
   },
   {
-    ticketName: "Premium Ticket",
+    ticketName: "Regular Ticket",
     ticketNumber: "IVT-1001",
     paymentStatus: "Paid",
   },
