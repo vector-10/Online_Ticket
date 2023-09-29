@@ -29,17 +29,17 @@ header{
     font-weight: 2rem;
 }
 .nav a:hover {
-    color: #a57cc4;  
+    color: #381d4d ;  
 }
 
 section{
     display: flex;
-    margin: 8rem 0rem;
+    margin: 7rem 0rem;
     
 }
 .hero{
     font-size: 5rem;
-    color: white;
+    color: #dfe6f6;
     margin: 0rem 0rem 0rem 4rem
 }
 span{
@@ -69,23 +69,28 @@ span{
     border: 0;
     margin: 0.5rem;
 }
-.form-button{
-    padding: 0.6rem 1rem;
-    margin: 1rem 0.6rem;
-    color: #9854cb;
+
+.sign{
+    color: white;
+}
+.button {
+    background-color: #9854cb;
+    color: white;
     font-weight: bold;
-    font-size: 1rem;
-    border-radius: 0.2rem;
-    border: 0;
-    background-color: white;
-    cursor: pointer;
+}
+.signup-form {
+    margin: 0rem 0rem 0rem 20rem;
+    background-color:  rgba(152, 84, 203, 0.5);
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+    
 }
 
 /* MEDIA QUERRIES */
 @media screen and (max-width: 1200px) {
     .veritas-logo{
-        width: 40px;
-        height: 40px;
+        width: 100px;
+        height: 100px;
     }
     header{
         height: 5rem;
@@ -97,7 +102,9 @@ span{
     }
     section{
         display: flex;
-        flex-direction: column;        
+        flex-direction: column;  
+        margin: 4rem 0rem;  
+        background-color: rgba(152, 84, 203, 0);   
     }
     body{
         background-image: url("/images/student1.jpg");
@@ -120,12 +127,13 @@ span{
         
     }
 
-}
 
+}
+/* MEDIA QUERRIES FOR PHONES */
 @media screen and (max-width:768px) {
     .veritas-logo{
-        width: 40px;
-        height: 40px;
+        width: 70px;
+        height: 70px;
     }
     header{
         height: 4rem;
@@ -136,11 +144,14 @@ span{
     }
     section{
         display: flex;
-        margin: 4rem 0rem;
+        margin: 0.1rem 0rem;
         
     }
     .nav a {
         display: none;
+    }
+    .logo{
+        margin: 0rem 0rem 0rem 1rem;
     }
 
 }
