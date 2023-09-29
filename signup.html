@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp"
+      rel="stylesheet">
+    <link  rel="stylesheet" href="signup.css">
+    <title>Signup and Register</title>
+</head>
+<body>
+    <!--This is the header, which contains logo and list items-->
+    <header>
+        <div class="logo"><img src="/images//i-rise logo.png" alt="veritas logo" class="veritas-logo"><span></span> I-<span>RISE</span></div>
+        <div class="nav">
+            <a href="signup.html">Home</a>          
+            <a href="#">About</a>          
+            <a href="#">Contact</a>          
+        </div>
+    </header>
+
+    <section>
+        <div class="hero">
+            <p>I<span>-RISE</span></p>
+           <p>INTERN<span>SHIP</span> <br/> SEMINAR <span>2023</span></p> 
+        </div>
+
+        <!-- Sign up form section-->
+
+         <div>
+            <p>
+            <div class="signup-form">   
+                <form action="submit_action.php" method="POST">
+                    <p class="sign">SignUp</p>
+                    <br/>
+                    <label for="fullname" class="form-input">Name:</label><br>
+                    <input type="text" class="form-input" id="name" name="name"> <br>
+        
+                    <label for="email" class="form-input">Email:</label><br>
+                    <input type="email" class="form-input" id="email" name="email"> <br>
+        
+                    <label for="fullname" class="form-input">Password:</label><br>
+                    <input type="password" class="form-input" id="password" name="password"> <br>
+        
+                    <input type="submit" class="form-button" value="submit">
+                </form>
+            </div>
+        </div> 
+  
+    </section>
+
+    
+</body>
+</html>
