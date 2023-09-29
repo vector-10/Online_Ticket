@@ -6,8 +6,7 @@ body{
     background-image: url("images/student.jpg");
     background-size: cover;
     background-position: center;
-    height: 100vh;
-    margin: 0rem 2rem;
+    height: 100vh;    
     font-weight: bold;
 }
 header{
@@ -15,6 +14,8 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;    
+    background-color: #dfe6f6;
+    
 }
 .nav{
     display: flex;
@@ -22,17 +23,23 @@ header{
 .nav a {
     justify-content: space-between;
     text-decoration: none;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     color:#9854cb ;
-    margin: 0rem 2rem;
+    margin: 0rem 4rem;
 }
+.nav a:hover {
+    color: #a57cc4;  
+}
+
 section{
     display: flex;
-    margin: 8rem 0rem ;
+    margin: 8rem 0rem;
+    
 }
 .hero{
     font-size: 5rem;
     color: white;
+    margin: 0rem 0rem 0rem 4rem
 }
 span{
     color: #9854cb;
@@ -43,6 +50,7 @@ span{
     justify-content: center;
     align-items: center;
     font-size: 2rem;
+    margin: 0rem 0rem 0rem 3rem;
 }
 .veritas-logo{
     width: 80px;
