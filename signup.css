@@ -14,8 +14,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;    
-    background-color: #dfe6f6;
-    
+    background-color: #dfe6f6;    
 }
 .nav{
     display: flex;
@@ -26,6 +25,7 @@ header{
     font-size: 1.2rem;
     color:#9854cb ;
     margin: 0rem 4rem;
+    font-weight: 2rem;
 }
 .nav a:hover {
     color: #a57cc4;  
@@ -80,7 +80,7 @@ span{
 }
 .form-button{
     padding: 0.6rem 1rem;
-    margin: 1rem 0rem;
+    margin: 1rem 0.6rem;
     color: #9854cb;
     font-weight: bold;
     font-size: 1rem;
@@ -88,4 +88,26 @@ span{
     border: 0;
     background-color: white;
     cursor: pointer;
+}
+
+/* MEDIA QUERRIES */
+@media screen and (max-width: 1200px) {
+    .veritas-logo{
+        width: 40px;
+        height: 40px;
+    }
+    .hero{
+        font-size: 5rem;
+        color: white;
+        margin: 0rem 0rem 0rem 4rem
+    }
+    section{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    body{
+        background-image: url("/images/student1.jpg");
+    }
+
 }
