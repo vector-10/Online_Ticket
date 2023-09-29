@@ -11,6 +11,7 @@ body{
 }
 header{
     height: 4rem;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;    
@@ -56,17 +57,7 @@ span{
     width: 80px;
     height: 80px;
 }
-.signup-form {
-    display: flex;
-    justify-content: center;
-    background-color: #9854cb;
-    opacity: 0.95;
-    border-radius: 0.5rem;
-    padding: 2rem;
-    color: white;
-    margin: 0rem 18rem;
-    
-}
+
 .sign{
     text-align: center;
     font-size: 1.5rem;
@@ -96,18 +87,60 @@ span{
         width: 40px;
         height: 40px;
     }
+    header{
+        height: 5rem;
+    }
     .hero{
         font-size: 5rem;
-        color: white;
-        margin: 0rem 0rem 0rem 4rem
+        margin: 8rem 0rem 0rem 2rem
+
     }
     section{
         display: flex;
-        flex-direction: column;
-        
+        flex-direction: column;        
     }
     body{
         background-image: url("/images/student1.jpg");
+    }
+    .signup-form {
+        margin: 0;
+        justify-content: center;
+    }
+    .logo{
+        margin: 0rem 0rem 0rem 2rem;
+    }
+    .nav a {      
+        margin: 0rem 4rem;
+        display: none;
+        
+    }
+    section{
+        display: flex;
+        margin: 3rem 0rem;
+        
+    }
+
+}
+
+@media screen and (max-width:768px) {
+    .veritas-logo{
+        width: 40px;
+        height: 40px;
+    }
+    header{
+        height: 4rem;
+    }
+    .hero{
+        font-size: 3rem;
+    
+    }
+    section{
+        display: flex;
+        margin: 4rem 0rem;
+        
+    }
+    .nav a {
+        display: none;
     }
 
 }
