@@ -4,8 +4,7 @@
 }
 body{
     background-image: url("/images//student.jpg");
-    background-size: cover;
-   
+    background-size: cover;   
     height: 100vh;    
     font-weight: bold;
 }
@@ -29,7 +28,7 @@ header{
     font-weight: 2rem;
 }
 .nav a:hover {
-    color: #381d4d ;  
+    color: #480171 ;  
 }
 
 main{
@@ -84,21 +83,7 @@ span{
 
     
 }
-/* .background-radial-gradient {
-    background-color: hsl(218, 41%, 15%);
-    background-image: radial-gradient(650px circle at 0% 0%,
-        hsl(218, 41%, 35%) 15%,
-        hsl(218, 41%, 30%) 35%,
-        hsl(218, 41%, 20%) 75%,
-        hsl(218, 41%, 19%) 80%,
-        transparent 100%),
-      radial-gradient(1250px circle at 100% 100%,
-        hsl(218, 41%, 45%) 15%,
-        hsl(218, 41%, 30%) 35%,
-        hsl(218, 41%, 20%) 75%,
-        hsl(218, 41%, 19%) 80%,
-        transparent 100%);
-  } */
+
 
   #radius-shape-1 {
     height: 220px;

@@ -7,7 +7,7 @@
       rel="stylesheet">
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link  rel="stylesheet" href="signup.css">
-    <title>Signup and Register</title>
+    <title>Register a Ticket</title>
 </head>
 <body>
     <!--This is the header, which contains logo and list items-->
@@ -28,10 +28,10 @@
     <div class="container px-4 py-5 px-md-5 text-center text-lg-start my-5">
       <div class="row gx-lg-5 align-items-center mb-5">
         <div class="col-lg-6 mb-3 mb-lg-0" style="z-index: 10">
-            <span style="color: white; font-size: 4rem;">I-RISE</span>
-          <h1 class="my-2 display-5 fw-bold ls-tight" style="color: #5a2483; font-size: 4rem; ">
-             INTERNSHIP SEMINAR <br />
-            <span style="color: white; ">2023</span>
+            <span style="color: #480171; font-size: 5rem;">I-RISE</span>
+          <h1 class="my-2 display-5 fw-bold ls-tight" style="color: white; font-size: 4rem; ">
+             REGSITER A TICKET <br />
+            
           </h1>
           <p class="mb-4 opacity-70" style="color: white; font-size: large;">
 
@@ -48,43 +48,41 @@
           <div class="card bg-glass">
             <div class="card-body px-4 py-5 px-md-5">
               <form>
-                <p class="sign"> Signup</p>
+                <p class="sign"> Register a Ticket</p>
                 <!-- 2 column grid layout with text inputs for the first and last names -->
-                <div class="row">
-                  <div class="col-md-6 mb-4">
-                    <div class="form-outline">
-                      <input type="text" id="form3Example1" class="form-control" />
-                      <label class="form-label" for="form3Example1">First name</label>
-                    </div>
-                  </div>
-                  <div class="col-md-6 mb-4">
-                    <div class="form-outline">
-                      <input type="text" id="form3Example2" class="form-control" />
-                      <label class="form-label" for="form3Example2">Last name</label>
-                    </div>
-                  </div>
-                </div>
+       
   
+                <!-- Name input -->
+                <div class="form-outline mb-2">
+                  <input type="text" id="form3Example3" class="form-control" />
+                  <label class="form-label" for="form3Example3">FullName:</label>
+                </div>
+
                 <!-- Email input -->
-                <div class="form-outline mb-4">
+                <div class="form-outline mb-2">
                   <input type="email" id="form3Example3" class="form-control" />
-                  <label class="form-label" for="form3Example3">Email address</label>
+                  <label class="form-label" for="form3Example3">Email address:</label>
                 </div>
   
-                <!-- Password input -->
-                <div class="form-outline mb-4">
-                  <input type="password" id="form3Example4" class="form-control" />
-                  <label class="form-label" for="form3Example4">Password</label>
+                <!-- Phone Number input -->
+                <div class="form-outline mb-2">
+                  <input type="number" id="form3Example4" class="form-control" />
+                  <label class="form-label" for="form3Example4">Phone Number:</label>
+                </div>
+  
+                <!-- Ticket ID input -->
+                <div class="form-outline mb-2">
+                  <input type="number" id="form3Example4" class="form-control" />
+                  <label class="form-label" for="form3Example4">Ticket ID:</label>
                 </div>
   
          
   
                 <!-- Submit button -->
                 <button type="submit" class="btn  btn-block mb-4 button">
-                  Sign up
-                </button>
-  
-                <!-- Register buttons -->
+                  Register
+                </button>  
+               
                 
               </form>
             </div>
