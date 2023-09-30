@@ -4,6 +4,7 @@
 }
 body{
     background-image: url("/images//student.jpg");
+    backdrop-filter: blur(2px);
     background-size: cover;   
     height: 100vh;    
     font-weight: bold;
