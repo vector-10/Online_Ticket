@@ -11,6 +11,7 @@
 </head>
 <body>
     <!--This is the header, which contains logo and list items-->
+    
     <header>
         <div class="logo"><img src="/images//i-rise logo.png" alt="veritas logo" class="veritas-logo"><span></span> I-<span>RISE</span></div>
         <div class="nav">
@@ -20,64 +21,79 @@
         </div>
     </header>
 
-    <section>
-        <div class="hero">
-            <p>I<span>-RISE</span></p>
-           <p>INTERN<span>SHIP</span> <br/> SEMINAR <span>2023</span></p> 
+    <!-- Section: Design Block -->
+<section class="background-radial-gradient overflow-hidden">
+
+  
+    <div class="container px-4 py-5 px-md-5 text-center text-lg-start my-5">
+      <div class="row gx-lg-5 align-items-center mb-5">
+        <div class="col-lg-6 mb-5 mb-lg-0" style="z-index: 10">
+          <h1 class="my-5 display-5 fw-bold ls-tight" style="color: hsl(218, 81%, 95%)">
+            The best offer <br />
+            <span style="color: hsl(218, 81%, 75%)">for your business</span>
+          </h1>
+          <p class="mb-4 opacity-70" style="color: hsl(218, 81%, 85%)">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Temporibus, expedita iusto veniam atque, magni tempora mollitia
+            dolorum consequatur nulla, neque debitis eos reprehenderit quasi
+            ab ipsum nisi dolorem modi. Quos?
+          </p>
         </div>
-
-        <!-- Sign up form section-->
-
-         
-            <div class="signup-form ">                   
-
-                <form class="mx-1 mx-md-4">
-                    <p class="sign">SignUp</p>
-
-                    <div class="d-flex flex-row align-items-center mb-1 ">
-                        <i class="fas fa-user fa-lg me-3 fa-fw"></i>
-                        <div class="form-outline flex-fill mb-0 ">
-                          <input type="text" id="form3Example1c" class="form-control "  />
-                          <label class="form-label text-white " for="form3Example1c">Your Name</label>
-                        </div>
-                      </div>
-                      
-                    <div class="d-flex flex-row align-items-center mb-1">
-                      <i class="fas fa-envelope fa-lg me-3 fa-fw"></i>
-                      <div class="form-outline flex-fill mb-0 ">
-                        <input type="email" id="form3Example3c" class="form-control" />
-                        <label class="form-label text-white" for="form3Example3c">Your Email</label>
-                      </div>
+  
+        <div class="col-lg-6 mb-5 mb-lg-0 position-relative">
+          <div id="radius-shape-1" class="position-absolute rounded-circle shadow-5-strong"></div>
+          <div id="radius-shape-2" class="position-absolute shadow-5-strong"></div>
+  
+          <div class="card bg-glass">
+            <div class="card-body px-4 py-5 px-md-5">
+              <form>
+                <p class="sign"> Signup</p>
+                <!-- 2 column grid layout with text inputs for the first and last names -->
+                <div class="row">
+                  <div class="col-md-6 mb-4">
+                    <div class="form-outline">
+                      <input type="text" id="form3Example1" class="form-control" />
+                      <label class="form-label" for="form3Example1">First name</label>
                     </div>
-  
-                    <div class="d-flex flex-row align-items-center mb-1">
-                      <i class="fas fa-lock fa-lg me-3 fa-fw"></i>
-                      <div class="form-outline flex-fill mb-0">
-                        <input type="password" id="form3Example4c" class="form-control" />
-                        <label class="form-label text-white" for="form3Example4c">Password</label>
-                      </div>
+                  </div>
+                  <div class="col-md-6 mb-4">
+                    <div class="form-outline">
+                      <input type="text" id="form3Example2" class="form-control" />
+                      <label class="form-label" for="form3Example2">Last name</label>
                     </div>
+                  </div>
+                </div>
   
-                    <div class="d-flex flex-row align-items-center mb-1">
-                      <i class="fas fa-key fa-lg me-3 fa-fw"></i>
-                      <div class="form-outline flex-fill mb-0">
-                        <input type="password" id="form3Example4cd" class="form-control" />
-                        <label class="form-label text-white" for="form3Example4cd">Repeat your password</label>
-                      </div>
-                    </div>  
-            
+                <!-- Email input -->
+                <div class="form-outline mb-4">
+                  <input type="email" id="form3Example3" class="form-control" />
+                  <label class="form-label" for="form3Example3">Email address</label>
+                </div>
   
-                    <div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
-                      <button type="button" class="btn btn-lg button ">Register</button>
-                    </div>
-  
-                  </form>
+                <!-- Password input -->
+                <div class="form-outline mb-4">
+                  <input type="password" id="form3Example4" class="form-control" />
+                  <label class="form-label" for="form3Example4">Password</label>
+                </div>
   
          
+  
+                <!-- Submit button -->
+                <button type="submit" class="btn  btn-block mb-4 button">
+                  Sign up
+                </button>
+  
+                <!-- Register buttons -->
+                
+              </form>
             </div>
-        </div> 
-  
-    </section>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Section: Design Block -->
+
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
