@@ -19,17 +19,21 @@ header{
 }
 .nav{
     display: flex;
+    gap: 50px;
 }
 .nav a {
     justify-content: space-between;
     text-decoration: none;
     font-size: 1.2rem;
-    color:#9854cb ;
-    margin: 0rem 4rem;
+    color:#9854cb ;    
+    margin: 0rem 2rem; 
     font-weight: 2rem;
 }
 .nav a:hover {
     color: #480171 ;  
+}
+.hamburger{
+    display:none;
 }
 
 main{
@@ -40,8 +44,7 @@ main{
 .hero{
     font-size: 5rem;
     color: #dfe6f6;
-    margin: 0rem 0rem 0rem 4rem;
-  
+    margin: 0rem 0rem 0rem 4rem;  
     background-size: cover;
     background-position: center;
 }
@@ -80,12 +83,8 @@ span{
     font-weight: bold;
 }
 .signup-form {
-    margin: 0rem 0rem 0rem 20rem;
-
-    
+    margin: 0rem 0rem 0rem 20rem;    
 }
-
-
   #radius-shape-1 {
     height: 220px;
     width: 220px;
