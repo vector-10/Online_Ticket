@@ -3,6 +3,7 @@
     padding: 0;
 }
 body{
+    position: relative;
     background-image: url("/images//student.jpg");
     backdrop-filter: blur(2px);
     background-size: cover;   
@@ -10,30 +11,53 @@ body{
     font-weight: bold;
 }
 header{
-    height: 4rem;
     width: 100%;
     display: flex;
-    align-items: center;
-    justify-content: space-between;    
+    align-items: center;    
     background-color: #dfe6f6;    
 }
-.nav{
-    display: flex;
-    gap: 50px;
+li{
+    list-style: none ;
 }
-.nav a {
-    justify-content: space-between;
+a{
+    color: #9854cb;
     text-decoration: none;
-    font-size: 1.2rem;
-    color:#9854cb ;    
-    margin: 0rem 2rem; 
-    font-weight: 2rem;
+    color: white;
 }
-.nav a:hover {
-    color: #480171 ;  
+.contain{
+    width: 1600px;
+    
 }
+.subcontain{
+    width: 85%;
+    margin: auto;
+
+}
+.navbar{
+    width: 100%;
+    min-height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+
 .hamburger{
     display:none;
+    cursor: pointer;
+}
+.bar{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px 0px ;
+    transition: all 0.3s ease;
+    background-color: #9854cb;
 }
 
 main{
@@ -117,6 +141,10 @@ span{
     }
     header{
         height: 5rem;
+        justify-content: space-around;
+    }
+    .contain{
+        width: 100%;
     }
     .hero{
         font-size: 5rem;
@@ -136,19 +164,43 @@ span{
     }
     .logo{
         margin: 0rem 0rem 0rem 2rem;
+    }  
+  
+    .hamburger{
+        display: block;
     }
-    .nav a {      
-        margin: 0rem 4rem;
-        display: none;
-        
+    .hamburger .active .bar:nth-child(2){
+        opacity: 0;
     }
+    .hamburger .active .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+    }
+    .hamburger .active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
+    
     section{
         display: flex;
         margin: 3rem 0rem;
         
     }
-
-
+    .nav-menu{
+        position: fixed;
+        left: -100%;
+        top: 70px;
+        gap: 0;
+        flex-direction: column;
+        background-color: #9854cb;
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+    }
+    .nav-item{
+        margin: 16px 0;
+    }
+    .nav-menu .active {
+        left: 0;
+    }
 }
 /* MEDIA QUERRIES FOR PHONES */
 @media screen and (max-width:768px) {
