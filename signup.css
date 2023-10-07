@@ -20,9 +20,11 @@ li{
     list-style: none ;
 }
 a{
-    color: #9854cb;
     text-decoration: none;
-    color: white;
+    color: #480171;
+}
+a:hover{
+    color: #9854cb;
 }
 .contain{
     width: 1600px;

@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Raleway:wght@300&display=swap');
 /* -------------------- ROOT VARIABLES -----------------------*/
 :root{
-    --color-primary: #7380ec;
+    --color-primary: #9854cb;
     --color-danger: #ff7782;
     --color-veritas: #8878fc;
     --color-success: #41f1b6;
@@ -9,10 +9,10 @@
     --color-white: #fff;
     --color-info-dark: #7d8da1;
     --color-info-light: #dce1eb;
-    --color-dark: #363949;
+    --color-dark: #480171;
     --color-light: rgba(132,139,200, 0.18);
     --color-primary-variant: #111e88;
-    --color-dark-variant: #677483;
+    --color-dark-variant: #1e002f;
     --color-background: #f6f6f9;
 
     --card-border-radius: 2rem;
